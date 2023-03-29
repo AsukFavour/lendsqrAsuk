@@ -48,11 +48,11 @@ header#top-header {
         border: 1px solid #21407d30;
         border-radius: 0.8rem;
         height: 4rem;
-        padding: 1rem;
+        
 
         + button {
           cursor: pointer;
-          height: 4.02rem;
+          height: 4rem;
           width: 5rem;
           margin-left: -1rem;
           border-radius: 0 1rem 1rem 0;
@@ -60,6 +60,8 @@ header#top-header {
           -moz-border-radius: 0 1rem 1rem 0;
           -ms-border-radius: 0 1rem 1rem 0;
           -o-border-radius: 0 1rem 1rem 0;
+          margin-top: 10px;
+          
         }
       }
 

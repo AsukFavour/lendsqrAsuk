@@ -1,0 +1,15 @@
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+
+    .info-container{
+        width: 18rem;
+        text-align: center;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+}
+

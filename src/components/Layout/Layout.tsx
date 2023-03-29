@@ -14,6 +14,7 @@ const Layout = ({ children }: Props) => {
       <div>
         <SideNavbar />
         <main id="main-content-container">{children}</main>
+
       </div>
     </>
   );

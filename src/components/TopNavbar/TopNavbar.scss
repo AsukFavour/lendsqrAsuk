@@ -1,0 +1,97 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+header#top-header {
+  position: fixed;
+  z-index: 20;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #fff;
+  padding: 3rem 6rem 2rem 3rem;
+  height: 10rem;
+  box-shadow: 3px 0px 20px rgba(0, 0, 0, 0.04);
+
+  nav {
+    width: 100%;
+
+    .nav-image-container {
+      width: 100%;
+      max-width: 28rem;
+
+      #logo {
+        display: flex;
+        align-items: center;
+
+        img {
+          height: 3rem;
+          width: auto;
+          margin-right: 0.5rem;
+
+          &:first-of-type {
+            height: 2.1rem;
+          }
+        }
+      }
+    }
+
+    .nav-main-container {
+      width: 100%;
+
+      #search-bar {
+        width: 35rem;
+        border: 1px solid #21407d30;
+        border-radius: 0.8rem;
+        height: 4rem;
+        padding: 1rem;
+
+        + button {
+          cursor: pointer;
+          height: 4.02rem;
+          width: 5rem;
+          margin-left: -1rem;
+          border-radius: 0 1rem 1rem 0;
+          -webkit-border-radius: 0 1rem 1rem 0;
+          -moz-border-radius: 0 1rem 1rem 0;
+          -ms-border-radius: 0 1rem 1rem 0;
+          -o-border-radius: 0 1rem 1rem 0;
+        }
+      }
+
+      .right-nav-menu {
+        .docs{
+          margin-bottom: 0;
+          color: #213F7D;
+        }
+
+        .notifications {
+          margin: 0 3.3rem 0 5.3rem;
+        }
+        .profile-icon {
+          height: 4rem;
+          border-radius: 50%;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+
+          + p {
+            margin: 0 1rem;
+            color: #213F7D;
+          }
+        }
+      }
+    }
+  }
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

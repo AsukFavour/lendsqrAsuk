@@ -1,0 +1,10 @@
+#main-content-container {
+  background: #e5e5e5;
+  padding: 13rem 3rem 3rem 31rem;
+  min-height: 100vh;
+  //use media query to remove the padding on smaller devices when you hide the sidenav
+  //example
+  @media screen and (max-width: 765px) {
+    padding: 5rem;
+  }
+}

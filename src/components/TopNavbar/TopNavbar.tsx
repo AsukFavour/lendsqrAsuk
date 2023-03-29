@@ -29,7 +29,7 @@ const TopNavbar = (props: Props) => {
                 placeholder="Search for anything"
                 id="search-bar"
               />
-              <SearchRoundedIcon  sx={{ color:"#FFFFFF" }} fontSize="large" />
+              <button><SearchRoundedIcon  sx={{ color:"#FFFFFF" }} fontSize="large" /></button>
             </div>
 
             <div className="flex-between right-nav-menu">

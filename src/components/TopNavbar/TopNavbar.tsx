@@ -38,7 +38,7 @@ const TopNavbar = (props: Props) => {
               <div className="flex-between">
                 <img src={usericon} className="profile-icon" />
                 <p>
-                  Adedeji <span><ArrowDropDownOutlinedIcon fontSize="large"/></span>
+                <Link to="/login">Adedeji</Link> <span><ArrowDropDownOutlinedIcon fontSize="large"/></span>
                 </p>
               </div>
             </div>

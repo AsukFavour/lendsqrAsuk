@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from "react";
 import "./Sidebar.scss";
 import NavItem from "./_navItem";
-import UsersIcon from "../../images/users-icon.png";
 import organisation from "../../images/sidebaricon/org.png";
 import dash from "../../images/sidebaricon/Vector1.png";
 import user from "../../images/sidebaricon/Vector2.png";

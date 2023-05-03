@@ -6,6 +6,7 @@ import "./TopNavbar.scss";
 import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNoneOutlined';
 import ArrowDropDownOutlinedIcon from '@mui/icons-material/ArrowDropDownOutlined';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
+import searchicon from "../../images/search.png"; 
 
 
 type Props = {};
@@ -29,7 +30,7 @@ const TopNavbar = (props: Props) => {
                 placeholder="Search for anything"
                 id="search-bar"
               />
-              <button><SearchRoundedIcon  sx={{ color:"#213F7D" }} fontSize="large" /></button>
+              <button><img src={searchicon} alt="" /></button>
             </div>
 
             <div className="flex-between right-nav-menu">

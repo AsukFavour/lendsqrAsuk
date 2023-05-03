@@ -4,12 +4,41 @@
     justify-content: space-between;
     background-color: transparent;
 
+
     .info-container{
         width: 18rem;
-        text-align: center;
         height: auto;
         border-radius: 10px;
+        background-color: #fff;
+        padding: 15px;
+        box-shadow: 4px #8f8e8e;
     }
     
 }
+
+.App {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 2rem;
+    border: 2px solid forestgreen;
+
+    table {
+        
+        width: 900px;
+        height: auto;
+      }
+
+      th {
+        border-bottom: 1px solid black;
+        width: auto;
+      }
+        
+      td {
+        text-align: left;
+      }
+        
+  }
 
